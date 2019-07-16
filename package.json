@@ -1,34 +1,24 @@
 {
-  "name": "react-native-web",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.8.6",
-    "react-art": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-native": "0.55",
-    "react-native-web": "^0.11.5",
-    "react-scripts": "3.0.1"
-  },
+  "private": "true",
+  "name": "react-native-web-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francismarcus/react-native-web-app.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "workspace/*"
+  ],
+  "bugs": {
+    "url": "https://github.com/francismarcus/react-native-web-app/issues"
+  },
+  "homepage": "https://github.com/francismarcus/react-native-web-app#readme"
 }
